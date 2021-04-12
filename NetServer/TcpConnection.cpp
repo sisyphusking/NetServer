@@ -1,7 +1,4 @@
-// Copyright 2019, Chen Shuaihao.
-//
-//Author: Chen Shuaihao
-//
+
 //TcpConnection类，表示客户端连接
 
 #include "TcpConnection.h"
@@ -214,7 +211,6 @@ void TcpConnection::HandleClose()
 	//loop_->AddTask(connectioncleanup_);
 	//closecallback_(this);
 
-	//20190217 优雅关闭，发完数据再关闭
 	if(disconnected_) {return;}
 	if(bufferout_.size() > 0 || bufferin_.size() > 0 || asyncprocessing_)
 	{
@@ -287,17 +283,6 @@ int sendn(int fd, std::string &bufferout)
     int sendsum = 0;
 	//char buffer[BUFSIZE+1];
 	size_t length = 0;
-	//length = bufferout.copy(buffer, BUFSIZE, 0);
-	//buffer[length] = '\0';	
-	// if(bufferout.size() >= BUFSIZE)
-	// {
-	// 	length =  BUFSIZE;
-	// }
-	// else
-	// {
-	// 	length =  bufferout.size();
-	// }
-	//无拷贝优化
 	length = bufferout.size();
 	if(length >= BUFSIZE)
 	{

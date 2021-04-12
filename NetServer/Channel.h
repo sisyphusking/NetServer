@@ -1,8 +1,3 @@
-// Copyright 2019, Chen Shuaihao.
-//
-//Author: Chen Shuaihao
-//
-//Channel类，fd和事件的封装
 
 #ifndef _CHANNEL_H_
 #define _CHANNEL_H_

@@ -1,8 +1,4 @@
-// Copyright 2019, Chen Shuaihao.
-//
-//Author: Chen Shuaihao
-//
-//
+
 #include "EventLoop.h"
 #include <iostream>
 #include <sys/eventfd.h>
@@ -37,7 +33,6 @@ EventLoop::EventLoop(/* args */)
 {
     wakeupchannel_.SetFd(wakeupfd_); //设置唤醒fd id
     
-    //todo 这里要复习下ET和LT模式
     //设置触发事件， 这里是epoll的边缘触发模式，ET  
     // EPOLLIN:表示关联的fd可以进行读操作了。
     // EPOLLOUT:表示关联的fd可以进行写操作了。

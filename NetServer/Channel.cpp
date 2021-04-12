@@ -1,7 +1,3 @@
-// Copyright 2019, Chen Shuaihao.
-//
-//Author: Chen Shuaihao
-//
 //Channel类，表示每一个客户端连接的通道
 //
 // EPOLLIN ：表示对应的文件描述符可以读（包括对端SOCKET正常关闭）；
