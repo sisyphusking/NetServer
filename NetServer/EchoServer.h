@@ -1,8 +1,4 @@
-// Copyright 2019, Chen Shuaihao.
-//
-//Author: Chen Shuaihao
-//
-//回射服务器
+
 
 #ifndef _ECHO_SERVER_H_
 #define _ECHO_SERVER_H_

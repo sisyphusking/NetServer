@@ -1,8 +1,4 @@
-// Copyright 2019, Chen Shuaihao.
-//
-//Author: Chen Shuaihao
-//
-//main
+
 
 #include <signal.h>
 #include "EventLoop.h"

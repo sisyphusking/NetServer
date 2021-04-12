@@ -1,7 +1,4 @@
-// Copyright 2019, Chen Shuaihao.
-//
-//Author: Chen Shuaihao
-//
+
 //
         //    typedef union epoll_data {
         //        void    *ptr;

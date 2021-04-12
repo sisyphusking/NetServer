@@ -1,7 +1,4 @@
-// Copyright 2019, Chen Shuaihao.
-//
-//Author: Chen Shuaihao
-//
+
 //EventLoopThread类，表示IO线程,执行特定任务的,线程池的是通用任务线程
 
 #ifndef _EVENTLOOP_THREAD_H_

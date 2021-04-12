@@ -1,7 +1,4 @@
-// Copyright 2019, Chen Shuaihao.
-//
-//Author: Chen Shuaihao
-//
+
 //服务器socket类，封装socket描述符及相关的初始化操作
 
 #ifndef _SOCKET_H_

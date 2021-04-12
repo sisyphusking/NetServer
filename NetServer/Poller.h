@@ -1,7 +1,4 @@
-// Copyright 2019, Chen Shuaihao.
-//
-//Author: Chen Shuaihao
-//
+
 //Poller类，对epoll的封装
 
 #ifndef _POLLER_H_

@@ -1,9 +1,4 @@
-// Copyright 2019, Chen Shuaihao.
-//
-//Author: Chen Shuaihao
-//
-//Timer类，定时器，生命周期由用户自行管理
-//
+
 
 #ifndef _TIMER_H_
 #define _TIMER_H_

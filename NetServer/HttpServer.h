@@ -1,8 +1,4 @@
-// Copyright 2019, Chen Shuaihao.
-//
-//Author: Chen Shuaihao
-//
-//
+
 
 #ifndef _HTTP_SERVER_H_
 #define _HTTP_SERVER_H_

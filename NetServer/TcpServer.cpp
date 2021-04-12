@@ -1,9 +1,4 @@
-// Copyright 2019, Chen Shuaihao.
-//
-//Author: Chen Shuaihao
-//
-//
-//
+
 
 #include "TcpServer.h"
 #include <iostream>
